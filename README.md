@@ -5,7 +5,7 @@
 A simple, lightweight Hyprland setup focused on productivity, practical keybinds, and easy to customize.
 
 ![Hyprland](https://img.shields.io/badge/Hyprland-0.56.2-8b9aaf?style=for-the-badge&labelColor=101418)
-[![Discord](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FHQwU9SzHj%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&style=for-the-badge&logo=discord&logoColor=ffffff&label=discord&labelColor=101418&color=7289a8)](https://discord.gg/HQwU9SzHj)
+[![Discord](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fj32UAE4WFP%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&style=for-the-badge&logo=discord&logoColor=ffffff&label=discord&labelColor=101418&color=7289a8)](https://discord.gg/j32UAE4WFP)
 [![YouTube](https://img.shields.io/badge/youtube-subscribe-b05a63?style=for-the-badge&logo=youtube&logoColor=ffffff&labelColor=101418)](https://www.youtube.com/@43PR2)
 [![Ko-Fi donate](https://img.shields.io/badge/donate-kofi?style=for-the-badge&logo=ko-fi&logoColor=ffffff&label=ko-fi&labelColor=101418&color=9a6570)](https://ko-fi.com/43pr)
 
@@ -41,9 +41,9 @@ You can skip the configuration section of the video, now it's automated. Just ru
 
 Not really. Almost everything is a keyboard shortcut, with mouse alternatives:
 
-- `Super + I` opens settings - middle-click the clock 
+- `Super + I` - Open settings - `Middle-click the clock` 
 
-The full list is in [Keybinds](#keybinds). You can also hover over bar elements to see what they do
+Check other [Keybinds](#keybinds). You can also hover over bar elements to see what they do
 
 ### What should I know before installing?
 
@@ -58,15 +58,16 @@ Join the [Discord](https://discord.gg/HQwU9SzHj).
 
 ## Features
 
-- **Fast & Lightweight Quickshell** — Optimized desktop components designed to be fast, and easy to customize.
+- **Fast & Lightweight Quickshell** — Optimized desktop components designed to be fast and easy to customize.
 - **Top bar** - Customizable bar with settings menu, and quick shortcuts.
-- **Settings** — System, network, bluetooth, display, audio, storage, themes, and more.
-- **Wallpaper picker & Dynamic Colors** — Custom wallpaper selector with automatic wallpaper-based color generation.
+- **Settings** — System settings, customize hyprland appearance, bar & themes.
+- **Wallpaper picker & Dynamic Colors** — Wallpaper-based color generation & live wallpapers support.
 - **Preset Themes** — Monochrome, Nord, Tokyo Night and other popular ones, with support for creating your own.
 - **App Launcher** — **Rofi** App search, clipboard history, and opacity controls.
 - **Zsh + Starship** — Customizable shell with autosuggestions and history.
 - **Notes & Reminders** —  Quick notes, tasks, and reminders.
-- **Power Menu** — Customizable power menu.
+- **Quick Actions** - Customizable quick actions for Wi-Fi, Bluetooth, night light, and more.
+- **Power Menu** — Customizable power menu to shut down, reboot, log out, etc.
 - **Hyprlock** — Custom lock screen.
 - **Spotify + Spicetify** — Custom theme based on **text - darkthemer**, (modified).
 
@@ -150,12 +151,10 @@ Dowload and move wallpapers to Pictures/Wallpapers. Wallpaper picker: Super + W.
 > ./install.sh
 > ```
 >
-> The installer will automatically update the existing symlinks to point to the new location.
+> The installer will update the existing symlinks to point to the new location.
 
 ---
 ## Updating
-
-If you didn't move the repository/dotfiles folder then run:
 
 ```bash
 cd dotfiles
@@ -168,12 +167,3 @@ Other options: `--dry-run` (preview changes), `--skip-packages`, `--skip-theme`.
 Dotfiles are symlinked so, `git pull` updates your live configs directly.
 
 You can check the reminders printed at the end of the run.
-
-> [!tip]
-> If any Quickshell (`.qml`) files changed in the pull, run:
->
-> ```bash
-> ./update.sh --restart-shell
-> ```
->
-> to restart Quickshell automatically.
