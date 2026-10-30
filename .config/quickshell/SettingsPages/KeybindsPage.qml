@@ -776,7 +776,7 @@ Item {
             spacing: 4
 
             TinyButton { label: "EDIT"; onClicked: page.openForm(row.bindId) }
-            TinyButton { label: "\u00d7"; onClicked: page.deleteCustom(row.bindId) }
+            TinyButton { label: "DELETE"; onClicked: page.deleteCustom(row.bindId) }
         }
     }
 
