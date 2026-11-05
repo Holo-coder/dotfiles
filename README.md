@@ -51,24 +51,23 @@ As reference I made this project with a i5 6th dell laptop with integrated graph
 
 ## Features
 
-- **Fast & Lightweight Quickshell** — Optimized desktop components designed to be fast and easy to customize.
-- **Top bar** - Customizable bar with settings menu, and quick shortcuts.
-- **Settings** — System settings, customize hyprland appearance, bar & themes.
-- **Wallpaper picker & Dynamic Colors** — Wallpaper-based color generation & live wallpapers support.
-- **Preset Themes** — Monochrome, Nord, Tokyo Night and other popular ones, with support for creating your own.
+- **Quickshell** — Fast, lightweight, customizable desktop components.
+- **Top bar** - Customizable bar with settings, and quick shortcuts.
+- **Settings** — System settings, customize hyprland appearance, and themes.
+- **Wallpaper picker** — Customizable | Wallpaper-based color generation, and live wallpapers.
+- **Preset Themes** — Monochrome, Nord, Tokyo Night and more, with custom theme support.
 - **App Launcher** — **Rofi** App search, clipboard history, and opacity controls.
-- **Zsh + Starship** — Customizable shell with autosuggestions and history.
+- **Zsh + Starship** — Enhanced shell with autosuggestions and command history.
 - **Notes & Reminders** —  Quick notes, tasks, and reminders.
-- **Quick Actions** - Customizable quick actions for Wi-Fi, Bluetooth, night light, and more.
-- **Power Menu** — Customizable power menu to shut down, reboot, log out, etc.
-- **Hyprlock** — Custom lock screen.
+- **Quick Actions** - Shortcuts for Bluetooth, Night Light, and more.
+- **Power Menu** — Shutdown, reboot, logout, and other power options.
 - **Spotify + Spicetify** — Custom theme based on **text - darkthemer**, (modified).
 
 > All programs: [packages.txt](packages.txt)
 
 ## Keybinds
 
-Middle click the clock to open settings. To close components use Esc key or use the same keybind. Hover over elements to see actions. 
+Hover over elements to see actions. 
 
 | Keybind                 | Action                    |
 | -----------             | ------------------------- |
@@ -92,14 +91,14 @@ Middle click the clock to open settings. To close components use Esc key or use 
 | `Super + Shift + W`     | Toggle bar                |
 | `Super + Grave`         | Logout menu               |
 | `Super + Tab`           | Lock screen               |
-| `Super + N`             | Notifications             |
 | `Super + R`             | Toggle screen recorder    |
-| `Delete`                | Screenshot fullscreen     |
-| `SHIFT + Delete`        | Screenshot area select    |
+| `SHIFT + F12`           | Text extractor (OCR)      |
 
 > [!note]
 >
 > Move and resize windows with Super + left/right mouse drag.
+>
+> To close components use Esc key or use the same keybind. 
 >
 > All keybinds: [.config/hypr/keybinds.lua](.config/hypr/keybinds.lua)
 
